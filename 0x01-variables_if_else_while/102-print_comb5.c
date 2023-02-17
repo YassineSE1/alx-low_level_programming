@@ -22,7 +22,7 @@ for (l = 0; l < 10 ; l++)
 {
 if (i == j && k != l)
 {
-if (k != j || k != j)
+if (k != i || k != j)
 {
 putchar(i + '0');
 putchar(j + '0');
