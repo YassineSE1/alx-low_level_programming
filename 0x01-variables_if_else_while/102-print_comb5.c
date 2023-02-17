@@ -33,7 +33,7 @@ putchar(',');
 putchar(' ');
 }
 }
-else
+else if (i + j == 17 && k + l == 18)
 putchar('\n');
 }
 }
