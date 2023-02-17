@@ -21,6 +21,7 @@ for (k = 0; k < 10 ; k++)
 for (l = 0; l < 10 ; l++)
 {
 if (i == j && k != l)
+{
 if (k != j || k != j)
 {
 putchar(i + '0');
@@ -30,6 +31,7 @@ putchar(k + '0');
 putchar(l + '0');
 putchar(',');
 putchar(' ');
+}
 }
 else
 putchar('\n');
