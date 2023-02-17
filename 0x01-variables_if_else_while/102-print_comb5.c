@@ -20,7 +20,8 @@ for (k = 0; k < 10 ; k++)
 {
 for (l = 0; l < 10 ; l++)
 {
-if (i == j && k != l && k != j)
+if (i == j && k != l)
+if (k != j || k != j)
 {
 putchar(i + '0');
 putchar(j + '0');
