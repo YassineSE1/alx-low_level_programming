@@ -3,7 +3,7 @@
 /**
 * main - Entry point
 *
-* Return: Always 1 (Success) 
+* Return: Always 1 (Success)
 */
 
 int main(void)
@@ -18,7 +18,7 @@ for (j = 0; j < 10 ; j++)
 for (k = 0; k < 10 ; k++)
 {
 if (i < j && i != j)
-if (j < k && j != k && i!= k)
+if (j < k && j != k && i != k)
 {
 putchar(i + '0');
 putchar(j + '0');
