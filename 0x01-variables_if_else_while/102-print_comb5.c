@@ -30,7 +30,7 @@ putchar(l + '0');
 putchar(',');
 putchar(' ');
 }
-else if(i + j == 17 && k + l == 18)
+else if (i + j == 17 && k + l == 18)
 putchar('\n');
 }
 }
