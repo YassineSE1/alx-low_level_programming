@@ -20,7 +20,7 @@ for (k = 0; k < 10 ; k++)
 {
 for (l = 0; l < 10 ; l++)
 {
-if ( i != j && i != k && i != l)
+if (i + j < k + l)
 {
 putchar(i + '0');
 putchar(j + '0');
@@ -30,9 +30,9 @@ putchar(l + '0');
 putchar(',');
 putchar(' ');
 }
-}
-if( i + j == 17 && k + l == 18)
+else if(i + j == 17 && k + l == 18)
 putchar('\n');
+}
 }
 }
 }
